@@ -70,5 +70,9 @@
   },
   "lint-staged": {
     "*.{md,json,yaml,js,ts}": "prettier --write"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "dist/index.js"
   }
 }
